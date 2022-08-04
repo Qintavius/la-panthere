@@ -1,8 +1,6 @@
 # La Panthere
 
-![Alt](path to img)
-
-![Image](/img/agence-la-panthere.svg)
+![Image](/img/logo.png)
 
 >L’agence de web design La Panthère souhaite améliorer son référencement dans les résultats de recherche pour faire face à la concurrence et à la perte de vitesse de son activité.
 >
