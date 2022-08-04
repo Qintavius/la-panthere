@@ -8,13 +8,12 @@
 >Une optimisation du site sera proposée par la suite et les résultats seront présentés.
 
 
-<br>
 ### Audit S.E.O et accessibilité :
 * Sélectionner 10 recommandations.
-<br>
+
 ### Optimisation :
 * Améliorer les recommandations sélectionnées.
-<br>
+
 ### Résultats :
 * Présentation des résultats d’améliorations.
 
