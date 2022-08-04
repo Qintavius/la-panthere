@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -198,6 +202,28 @@ a:hover {
     color: rgba(0, 0, 0, .5);
 }
 
+.l-bloc blockquote {
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    line-height: normal;
+    font-size: 20px;
+    font-style: italic;
+    padding: 0 15%;
+    margin: 0;
+    border: none;
+}
+
+.l-bloc cite {
+    font-size: 20px;
+    font-style: normal;
+}
+
+.l-bloc h2 {
+    padding: 0 10%;
+    line-height: normal;
+    font-weight: normal;
+}
+
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
@@ -326,6 +352,13 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s linear;
+}
+
+.nav > li:hover {
+    border-bottom: 2px solid #F3976C;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -646,12 +679,18 @@ h4,
 h5,
 h6,
 p,
-label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+label {
+    font-family: "helvetica";
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
 }
 
 .container {
@@ -677,7 +716,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -696,7 +735,6 @@ p {
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
-    font-weight: 700;
 }
 
 .social {
@@ -737,6 +775,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 16px;
 }
 
 .portfolio-thumb {
@@ -775,7 +814,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
