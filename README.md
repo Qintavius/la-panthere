@@ -17,4 +17,4 @@
 ### Résultats :
 * Présentation des résultats d’améliorations.
 
-[Liens vers les consignes du projet] (https://openclassrooms.com/fr/paths/556/projects/638/assignment)
+(https://openclassrooms.com/fr/paths/556/projects/638/assignment "Lien vers les consignes du projet")
