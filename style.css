@@ -777,8 +777,9 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
     font-size: 18px;
+    font-weight: 700;
 }
 
 .portfolio-thumb {
