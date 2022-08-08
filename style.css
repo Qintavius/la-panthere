@@ -1098,6 +1098,11 @@ h4 {
     font-size: 24px;
 }
 
+#bloc-5-cta .col-sm-12 p {
+    padding-bottom: 10%;
+    font-size: 18px;
+}
+
 /* Footer */
 footer p {
     margin-bottom: 2%;
