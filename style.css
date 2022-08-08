@@ -104,7 +104,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc p {
@@ -203,7 +203,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0);
 }
 
 .l-bloc blockquote {
@@ -261,7 +261,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -685,14 +685,14 @@ p,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757;
+    font-weight: 500;
+    color: black;
 }
 
 label {
     font-family: "helvetica";
-    font-weight: normal;
-    font-size: 16px;
+    font-weight: bold;
+    font-size: 18px;
     color: white;
 }
 
@@ -813,7 +813,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #dd865e;
 }
 
 .tc-white {
@@ -822,7 +822,8 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #ffffff!important;
+    font-weight: 700;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1118,5 +1119,5 @@ footer li {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
