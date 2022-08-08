@@ -104,7 +104,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
+}
+
+.d-bloc p {
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -565,7 +569,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -575,16 +581,13 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
+    padding: 3px;
     z-index: 1;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
@@ -629,7 +632,7 @@ a[data-lightbox]:hover img {
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
-    padding: 0 9px 5px;
+    padding: 5px 10px;
     opacity: 0.3;
 }
 
@@ -653,12 +656,12 @@ a[data-lightbox]:hover img {
 }
 
 .next-lightbox {
-    padding: 6px 8px 1px 13px;
+    padding: 10px 14px 8px 16px;
     right: 25px;
 }
 
 .prev-lightbox {
-    padding: 6px 13px 1px 10px;
+    padding: 10px 16px 8px 14px;
     left: 25px;
 }
 
@@ -683,7 +686,7 @@ p,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 label {
@@ -775,7 +778,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .portfolio-thumb {
@@ -1078,4 +1081,37 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+/* Modification */
+
+/* Bloc portfolio texte top */
+#bloc-4-portfolio h2 {
+    text-align: center;
+}
+
+/* Bloc contact texte droite */
+#bloc-5-cta .col-sm-6:nth-child(2) p {
+    text-align: center;
+    margin: 25% 10%;
+    font-size: 24px;
+}
+
+/* Footer */
+footer p {
+    margin-bottom: 2%;
+}
+
+footer ul {
+    padding: 0 13px;
+}
+
+footer li {
+    margin: 5px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
