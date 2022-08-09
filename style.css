@@ -1117,9 +1117,13 @@ h4 {
 }
 
 /* Footer */
+footer {
+    padding: 0 5%;
+}
+
 footer p {
     margin-bottom: 4%;
     color: black!important;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
 }
