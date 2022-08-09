@@ -493,8 +493,8 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
 }
 
 button {
@@ -682,7 +682,6 @@ h4,
 h5,
 h6,
 p,
-.btn,
 a {
     font-family: "helvetica";
     font-weight: 500;
@@ -777,7 +776,7 @@ h4 {
 }
 
 .white {
-    color: black!important;
+    color: white!important;
     font-size: 18px;
     font-weight: 700;
 }
@@ -862,11 +861,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1108,17 +1107,7 @@ h4 {
 /* Footer */
 footer p {
     margin-bottom: 2%;
-}
-
-footer ul {
-    padding: 0 13px;
-}
-
-footer li {
-    margin: 5px 0;
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
+    color: black!important;
+    font-weight: 600;
+    font-size: 20px;
 }
