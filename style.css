@@ -295,7 +295,7 @@ a:hover {
 
 .voffset {
     margin-top: 30px;
-    padding: 0 15%;
+    padding: 0 5%;
 }
 
 .voffset-lg {
@@ -754,6 +754,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    padding: 0 5%;
 }
 
 h3 {
@@ -952,8 +953,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
     }
     .b-parallax {
         background-attachment: scroll;
