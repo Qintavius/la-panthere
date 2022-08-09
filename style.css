@@ -212,7 +212,6 @@ a:hover {
     line-height: normal;
     font-size: 20px;
     font-style: italic;
-    padding: 0 15%;
     margin: 0;
     border: none;
 }
@@ -296,6 +295,7 @@ a:hover {
 
 .voffset {
     margin-top: 30px;
+    padding: 0 15%;
 }
 
 .voffset-lg {
@@ -575,6 +575,11 @@ a[data-lightbox] {
     text-align: center;
 }
 
+a[data-lightbox] img {
+    width: 100%;
+    height: auto;
+}
+
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
@@ -740,6 +745,8 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-evenly;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -1092,10 +1099,14 @@ h4 {
     text-align: center;
 }
 
-/* Bloc contact texte droite */
+/* Bloc contact */
+#bloc-5-cta {
+    padding: 0 5%;
+}
+
 #bloc-5-cta .col-sm-6:nth-child(2) p {
     text-align: center;
-    margin: 25% 10%;
+    margin: 25% 0;
     font-size: 24px;
 }
 
@@ -1106,7 +1117,7 @@ h4 {
 
 /* Footer */
 footer p {
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     color: black!important;
     font-weight: 600;
     font-size: 20px;
