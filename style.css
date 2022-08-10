@@ -576,8 +576,9 @@ a[data-lightbox] {
 }
 
 a[data-lightbox] img {
-    width: 100%;
-    height: auto;
+    /*width: 100%;
+    height: auto;*/
+    aspect-ratio: attr(320) / attr(320);
 }
 
 a[data-lightbox]:hover::before {
