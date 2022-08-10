@@ -17,6 +17,10 @@ button {
     outline: none!important;
 }
 
+a:focus, button:focus {
+    outline: 2px solid rgb(0, 132, 255)!important;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -842,7 +846,7 @@ h4 {
     font-weight: 700;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
@@ -851,7 +855,7 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover, .ltc-white:focus {
     color: #cccccc!important;
 }
 
@@ -993,6 +997,7 @@ h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
+
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
