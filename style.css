@@ -568,10 +568,6 @@ button {
     transition: all .3s ease-in-out;
 }
 
-.scrollToTop span {
-    margin-top: 6px;
-}
-
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
@@ -806,8 +802,7 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: -32px;
 }
 
 .avatar {
@@ -1113,7 +1108,12 @@ h4 {
     padding: 0;
 }
 
-/* Bloc contact */
+/* Bloc-4 portfolio */
+.col-sm-6 {
+    margin: 32px 0;
+}
+
+/* Bloc-5 contact */
 #bloc-5-cta {
     padding: 0 5%;
 }
@@ -1121,7 +1121,7 @@ h4 {
 #bloc-5-cta .col-sm-6:nth-child(2) p {
     text-align: center;
     margin: 25% 0;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #bloc-5-cta .col-sm-12 p {
